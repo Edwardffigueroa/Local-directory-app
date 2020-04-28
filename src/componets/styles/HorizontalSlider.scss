@@ -1,0 +1,32 @@
+@import 'colors';
+
+.horizontal-slider-container{
+    
+
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+
+}
+
+
+.MuiPaper-root{
+    width: 172px;
+    height: 105px;
+    background-color: $gray-slow !important;
+
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}

@@ -1,0 +1,18 @@
+$small-size: 12px;
+$medium-size:14px;
+
+%medium-text-bold {
+    font-weight: bold;
+    font-size: $medium-size;
+}
+
+%medium-text-regular {
+    font-weight: 400;
+    font-size: $medium-size;
+    color: #5B5B5B;
+}
+%medium-text-regular-black {
+    font-weight: 400;
+    font-size: $medium-size;
+    color: black;
+}

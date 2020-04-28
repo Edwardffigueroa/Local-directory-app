@@ -1,0 +1,29 @@
+.search-bar-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.Mui-focused{
+    background-color: gray;
+}
+
+.MuiInputAdornment-root{
+    margin: 10px;
+    color: gray;
+}
+
+.MuiInputBase-root{
+    background-color: #EFEFEF;
+    width: 73%;
+    height: 45px;
+    border-radius: 6px;
+    padding-right: 8px;
+}
+
+
+.MuiInputBase-adornedEnd{
+    color: black;
+}

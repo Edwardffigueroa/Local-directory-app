@@ -1,0 +1,19 @@
+
+.top-bar-container{
+    display: flex;
+    flex-flow: row nowrap;
+    
+    margin-left: 15px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+
+.top-bar-container p{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}

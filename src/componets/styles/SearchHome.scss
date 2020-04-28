@@ -1,0 +1,36 @@
+
+$gray-bar: #EFEFEF;
+$gray-text: #645E5E;
+
+#search-home-container{
+
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+.searchBar{
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    width: 90%;
+    height: 45px;
+    background:$gray-bar;
+    border-radius: 26px;
+    
+}
+
+span{
+
+    margin-left: 10%;
+    color: gray;
+}
+
+.searchBar p{
+    color: $gray-text ;
+    margin-left: 20px;
+}
