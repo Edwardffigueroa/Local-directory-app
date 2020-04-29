@@ -1,12 +1,12 @@
 import React from 'react';
-import TopBar from '../componets/TopBar';
 import CoverPhoto from '../componets/CoverPhoto';
+import ShopOverviewHeader from '../componets/ShopOverviewHeader';
 
 const ShopOverview = () =>{
     return(
-        <React.Fragment>
-            <TopBar />
+        <React.Fragment>            
             <CoverPhoto />
+            <ShopOverviewHeader />            
         </React.Fragment>
     );
 }
