@@ -1,0 +1,42 @@
+@import 'fonts';
+@import 'colors';
+
+#shop-products-container{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: $gray-slow;
+    
+    width: 100%;
+
+    .title-products{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        h3{
+            @extend %title-text;
+            margin: 10px 20px;
+        }
+        p{
+            color: $gray-text;
+            margin: 10px 20px;
+        }
+    }
+
+    .category-container{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0px 15px;
+        justify-content: center;
+
+        .MuiButtonBase-root{
+            margin: 5px 5px ;
+        }
+    }
+    .products-container{
+        padding: 5px 15px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+}
