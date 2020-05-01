@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/ShopOverviewProducts.scss';
-import { Chip } from '@material-ui/core';
+import { Chip, Divider } from '@material-ui/core';
 import ProductCard from './ProductCard';
 
 function ShopOverviewProducts (){
@@ -13,8 +13,8 @@ function ShopOverviewProducts (){
         <React.Fragment>
             <section id ="shop-products-container">
                 <div className="title-products">
-                    <h3>Productos</h3>
-                    <p>Ver todos</p>
+                    <h3>Categorías</h3>
+                    <p>Buscar en la tienda </p>
                 </div>
                 <div className="category-container">
                         {/* chips */}
@@ -26,8 +26,14 @@ function ShopOverviewProducts (){
                         <Chip label="Categoría" onClick={handleClick} />
                         <Chip label="Categoría" onClick={handleClick} />                    
                 </div>
+                <Divider />
+                <div className="title-products">                    
+                    <p>Categoría</p>                    
+                </div>
                 <div className="products-container">
                         {/* card-component */}
+                        <ProductCard />
+                        <ProductCard />
                         <ProductCard />
                         <ProductCard />
                 </div>

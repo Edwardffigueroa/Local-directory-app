@@ -3,21 +3,48 @@
 
 .product-card-container{
     width:150px ;
-    height: 214px;
-
+    
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    // justify-content: center;
+    justify-content: center;
     margin: 5px;
+    
     
     .product-image-container{
         
         width: 130px;
         height: 111px;
-        background-color: gray;
+        // background-color: gray;
         border-radius: 5px;
         margin-top: 10px;
+        flex: 0 0 auto;
+        overflow: hidden;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
         
+        img{
+            height: 100%;
+        }
+    }
+
+    .product-price{
+        width: 85%;
+        margin: 5px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .product-name{
+        width: 85%;
+        margin: 5px;
+        @extend %medium-text-regular-black;
+    }
+    .product-quantity{
+        font-size: $small-size;
+        color:$gray-text;
+        text-align: left;
+        width: 85%;
+        margin: 5px;
     }
 }
