@@ -14,7 +14,7 @@ function ShopOverviewProducts (){
             <section id ="shop-products-container">
                 <div className="title-products">
                     <h3>Categorías</h3>
-                    <p>Buscar en la tienda </p>
+                    {/* <p>Buscar en la tienda </p> */}
                 </div>
                 <div className="category-container">
                         {/* chips */}
@@ -37,6 +37,17 @@ function ShopOverviewProducts (){
                         <ProductCard />
                         <ProductCard />
                 </div>
+                <div className="title-products">                    
+                    <p>Categoría</p>                    
+                </div>
+                <div className="products-container">
+                        {/* card-component */}
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                </div>
+                
             </section>
         </React.Fragment>
     );    
