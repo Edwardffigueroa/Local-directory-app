@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import ShopOverview from './containers/ShopOverviewContainer';
+// import ShopOverview from './containers/ShopOverviewContainer';
+import ShopContact from './containers/ShopContact';
 // import HomeContainer from './containers/HomeContainer';
 // import SearchContainer from './containers/SearchContainer';
 
@@ -11,7 +12,8 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <HomeContainer /> */}
     {/* <SearchContainer /> */}
-    <ShopOverview />
+    {/* <ShopOverview /> */}
+    <ShopContact >
   </React.StrictMode>,
   document.getElementById('root')
 );
