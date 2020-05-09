@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
 // import ShopOverview from './containers/ShopOverviewContainer';
-import ShopContact from './containers/ShopContact';
+import ShopContact from './containers/ShopContactContainer';
 // import HomeContainer from './containers/HomeContainer';
 // import SearchContainer from './containers/SearchContainer';
 
@@ -13,7 +13,7 @@ ReactDOM.render(
     {/* <HomeContainer /> */}
     {/* <SearchContainer /> */}
     {/* <ShopOverview /> */}
-    <ShopContact >
+    <ShopContact />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,41 @@
+@import 'colors';
+@import 'fonts';
+
+.shop-name{
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    // width: 50%;
+
+    .image-circle{
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 50%;
+        width: 66px;
+        height: 66px;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+        }
+    }
+    .shop-text-container{
+        display: flex;
+        flex-flow: column nowrap;
+        margin-left: 10px;
+        .shop-title{
+            @extend %h2-text;
+        }
+        .shop-category{
+            @extend %medium-text-regular-black;
+        }
+    }
+
+}
