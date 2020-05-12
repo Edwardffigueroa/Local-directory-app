@@ -1,0 +1,16 @@
+@import "colors";
+@import "fonts";
+
+.shop-phones-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .table-card{
+        width: 50%;
+        margin: 10px;
+    }
+
+}

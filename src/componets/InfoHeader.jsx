@@ -6,11 +6,13 @@ import { Divider } from '@material-ui/core';
 
 function InfoHeader() {
     return (
-        <div className="info-header-container">
+        <React.Fragment>
             <TopBar />
-            <ShopName />
+            <div className="info-header-container">
+                <ShopName />
+            </div>
             <Divider />
-        </div>
+        </React.Fragment>
     );
 }
 

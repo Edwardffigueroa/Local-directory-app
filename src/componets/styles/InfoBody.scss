@@ -1,0 +1,8 @@
+@import "colors";
+
+.info-body-container{
+    width: 100%;
+    display: flex;
+    flex-flow:  column nowrap;
+    background-color: $gray-slow ;
+}
