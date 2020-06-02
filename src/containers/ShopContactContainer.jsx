@@ -3,6 +3,8 @@ import InfoHeader from '../componets/InfoHeader';
 import OpeningHours from '../componets/OpeningHours';
 import InfoBody from '../componets/InfoBody';
 import ShopPhones from '../componets/ShopPhones';
+import ShopLocation from '../componets/ShopLocation';
+import SocialNetwork from '../componets/SocialNetwork';
 
 const ShopContactContainer = () => {
     return (
@@ -11,6 +13,8 @@ const ShopContactContainer = () => {
             <InfoBody >
                 <OpeningHours />
                 <ShopPhones />
+                <ShopLocation />
+                <SocialNetwork />
             </InfoBody>
         </React.Fragment>
     );

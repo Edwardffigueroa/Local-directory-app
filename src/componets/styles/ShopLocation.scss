@@ -1,0 +1,27 @@
+@import "colors";
+@import "fonts";
+
+.shop-location-container{
+    width: 89%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    img{
+        margin: 10px;
+        margin-right: 20px;
+    }
+
+    .letterAddress{
+        display: flex;
+        flex-flow:  column nowrap;
+        align-items: center;
+    
+        .letter{
+            @extend %medium-text-bold;
+        }
+        .city{
+            @extend %medium-text-regular;
+        }
+    }
+}
